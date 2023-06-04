@@ -28,3 +28,10 @@ genres_tuple = ("pop", "rock", "soul", "hard rock", "soft rock", "R&B", "progres
 
 print(genres_tuple[3:6])
 
+#Find the first index of "disco":
+print(genres_tuple.index("disco"))
+
+#Generate a sorted List from the Tuple 
+C_tuple=(-5, 1, -3)
+C_list = sorted(C_tuple)
+C_list
