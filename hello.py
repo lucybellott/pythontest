@@ -22,3 +22,9 @@ name = 'Lucy'
 
 print(hi(name))
 
+genres_tuple = ("pop", "rock", "soul", "hard rock", "soft rock", "R&B", "progressive rock", "disco")
+
+#Use slicing to obtain indexes 3, 4 and 5:
+
+print(genres_tuple[3:6])
+
