@@ -78,3 +78,23 @@ album_list = [ "Michael Jackson", "Thriller", 1982, "00:42:19", 1982, "Pop, Rock
 album_set = set(album_list)             
 print(album_set)
 
+# Sample Sets
+
+album_set1 = set(["Thriller", 'AC/DC', 'Back in Black'])
+album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
+
+# Find the intersections
+intersection = album_set1 & album_set2
+intersection
+
+# Find the difference in set1 but not set2
+album_set1.difference(album_set2)  
+
+# Find the union of two sets
+album_set1.union(album_set2)
+
+# Check if superset
+set(album_set1).issuperset(album_set2)   
+
+# Check if subset
+set(album_set2).issubset(album_set1)     
