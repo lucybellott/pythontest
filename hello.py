@@ -70,3 +70,6 @@ del(inventory["ProductNo1_releaseYear"])
 
 print(inventory)
 
+#test commit
+print('test commit')
+
